@@ -1,0 +1,59 @@
+.section2-container {
+    padding: 5% 20%;
+    background: #F6F8F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #54565A;
+}
+
+.section2-container h1 {
+    font-family: 'AirbnbCerealBold';
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin: 1% 5%;
+}
+
+.section2-container h2 {
+    font-family: 'AirbnbCerealLight';
+    font-size: 140%;
+    text-align: center;
+    margin: 0;
+    margin: 1% 5%;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.features {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.feature-head {
+    display: flex;
+    align-items: center;
+}
+
+.feature-head img {
+    width: 10%;
+}
+
+.feature-head p {
+    font-family: 'AirbnbCerealMedium';
+    padding-left: 5%;
+    margin: 2% 0;
+}
+
+.feature-body {
+    font-family: 'AirbnbCerealMedium';
+    font-size: 70%;
+    line-height: 170%;
+}
