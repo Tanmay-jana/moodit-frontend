@@ -8,7 +8,8 @@
 .landing-page-body {
     display: flex;
     width: 100%;
-    margin-top: 3%;
+    padding-top: 10%;
+    /* margin-top: 3%; */
 }
 
 .landing-left {
