@@ -1,0 +1,47 @@
+.section3-container {
+    background: linear-gradient(180deg, #5C94F6 0%, #2F5BEA 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.section3-header {
+    color: #fff;
+    font-family: 'AirbnbCerealMedium';
+    font-size: 150%;
+
+}
+
+.blue-box {
+    background: rgba(24, 69, 188, 0.5);
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    display: flex;
+    margin: 5% 10%;
+    padding: 5% 10%;
+    width: 80%;
+    position: relative;
+}
+
+.work-lists {
+    width: 40%;
+    color: #fff;
+}
+
+.work-list h2 {
+    font-family: 'AirbnbCerealBold';
+}
+
+.work-list p {
+    font-family: 'AirbnbCerealMedium';
+    font-size: 70%;
+    line-height: 180%;
+}
+
+.mobile1-img {
+    position: absolute;
+    width: 35%;
+    right: 10%;
+}

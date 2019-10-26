@@ -9,7 +9,7 @@
 }
 
 .section2-container h1 {
-    font-family: 'AirbnbCerealBold';
+    font-family: 'AirbnbCerealMedium';
     color: #000;
     text-align: center;
     margin: 0;
@@ -33,7 +33,7 @@
 }
 
 .features {
-    width: 30%;
+    width: 29%;
     margin-top: 5%;
 }
 
