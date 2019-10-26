@@ -1,7 +1,8 @@
 .landing-page-container {
     background-image: url('../../assets/Rectangle.png');
     background-size: cover;
-    height: 40rem;
+    padding-bottom: 10%;
+    width: 100%;
 }
 
 .landing-page-body {
@@ -23,6 +24,7 @@
     margin-right: 5%;
     flex-direction: column;
     align-items: flex-end;
+    width: 100%;
 }
 
 .text-body {
@@ -39,16 +41,18 @@
 .know-more-form {
     font-family: 'AirbnbCerealLight';
     display: flex;
+    width: 55%;
 }
 
 .email {
      border: none;
-     width: 70%;
+     width: 100%;
      padding: 5%;
      border-top-left-radius: 5px;
      border-bottom-left-radius: 5px;
      background: #1845BC;
      margin-right: 0.5%;
+     color: #fff;
 }
 
 .email::placeholder {
