@@ -1,0 +1,34 @@
+.main-header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0;
+}
+
+.header-left, .header-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    margin-left: 20%;
+}
+
+.header-right {
+    margin-right: 20%;
+    justify-content: flex-end;
+}
+
+.main-logo {
+    width: 22%;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10%;
+    font-family: 'AirbnbCerealExtraBold';
+    font-size: 80%;
+}

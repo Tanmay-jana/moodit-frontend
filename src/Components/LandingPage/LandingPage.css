@@ -1,0 +1,72 @@
+.landing-page-container {
+    background-image: url('../../assets/Rectangle.png');
+    background-size: cover;
+    height: 40rem;
+}
+
+.landing-page-body {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.landing-left {
+    width: 45%;
+    display: flex;
+    /* flex-direction: column;
+    align-items: flex-end; */
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-body {
+    font-family: 'AirbnbCerealLight';
+    font-size: 200%;
+    color: #fff;
+    width: 55%;
+}
+
+.text-body span {
+    font-family: 'AirbnbCerealBold';
+}
+
+.know-more-form {
+    font-family: 'AirbnbCerealLight';
+    display: flex;
+}
+
+.email {
+     border: none;
+     width: 70%;
+     padding: 5%;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background: #1845BC;
+     margin-right: 0.5%;
+}
+
+.email::placeholder {
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.submit {
+    border: none;
+    font-size: 70%;
+    padding: 5%;
+    background: #1845BC;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.maditation-img {
+    width: 40%;
+}
