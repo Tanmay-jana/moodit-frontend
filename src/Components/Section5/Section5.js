@@ -8,8 +8,9 @@ export default class Section5 extends Component {
   render() {
     return (
       <div className="section5-container">
+        
         <img className="mobile-img" src={mobile} alt="mobile" />
-        <img className="artwork" src={artwork} alt="artwork" />
+        {/* <img className="artwork" src={artwork} alt="artwork" /> */}
         <div className="app-download-container">
           <h2>Now available on public beta!</h2>
           <p>
@@ -18,6 +19,7 @@ export default class Section5 extends Component {
           </p>
           <img className = "app-store-img" src = {appstore} alt = "appstore"/>
         </div>
+        
       </div>
     );
   }
