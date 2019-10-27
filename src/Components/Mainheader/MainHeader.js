@@ -1,12 +1,22 @@
 import React, { Component } from "react";
 import "./MainHeader.css";
 import logo from "../../assets/MooditLogo.png";
+import { connect } from "react-redux";
+import {openSideNav, closeSideNav} from '../../action/actions'
 
-export default class MainHeader extends Component {
+
+class MainHeader extends Component {
   state = {
-    sideNav: false,
     scrolled: false
   };
+
+  mobNav = () => {
+    if(this.props.sideNav === false) {
+      this.props.openSideNav();
+    } else {
+      this.props.closeSideNav();
+    }
+  }
 
   componentDidMount = () => {
     window.addEventListener("scroll", () => {
@@ -36,6 +46,7 @@ export default class MainHeader extends Component {
         <div className = "header-left">
           <img className = "main-logo" src={logo} alt="logo" />
         </div>
+        <i onClick = {this.mobNav} className="fa fa-bars"></i>
         <div className = "header-right">
             <a className = "nav-link" href = "/">Why</a>
             <a className = "nav-link" href = "/">How</a>
@@ -45,3 +56,11 @@ export default class MainHeader extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    sideNav: state.sideNav
+  }
+}
+
+export default connect (mapStateToProps, {openSideNav, closeSideNav})(MainHeader);

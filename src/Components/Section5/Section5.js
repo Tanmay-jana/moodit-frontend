@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Section5.css";
 import mobile from "../../assets/MOCK 2.png";
-import artwork from "../../assets/Artwork@2x.png";
+// import artwork from "../../assets/Artwork@2x.png";
 import appstore from '../../assets/app-store.png'
 
 export default class Section5 extends Component {

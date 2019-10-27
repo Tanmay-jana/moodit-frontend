@@ -44,3 +44,65 @@
     font-family: 'AirbnbCerealExtraBold';
     font-size: 80%;
 }
+
+.fa-bars {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        padding: 5% 0;
+        /* background: #3c82f0; */
+    }
+
+    .header-solid {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        padding: 5% 0;
+        background: #3c82f0;
+        z-index: 10;
+    }
+
+    .header-right {
+        display: none
+    }
+
+    .fa-bars {
+        display: block;
+        color: #fff;
+        align-self: center;
+        font-size: 150%;
+        text-align: center;
+        align-self: flex-end;
+    }
+
+    .header-left {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-left {
+        margin-left: 0%;
+    }
+
+    .main-logo {
+        width: 40%; 
+    }
+
+    .fa-bars {
+        display: block;
+        color: #fff;
+        align-self: center;
+        font-size: 200%;
+        text-align: center;
+        align-self: flex-end;
+    }
+}
