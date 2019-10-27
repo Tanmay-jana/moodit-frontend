@@ -107,7 +107,7 @@
 
     .text-container {
         display: flex;
-        margin-right: 5%;
+        margin-right: 0%;
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -183,7 +183,7 @@
 
     .text-container {
         display: flex;
-        margin-right: 5%;
+        margin-right: 0%;
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -200,7 +200,7 @@
     .know-more-form {
         font-family: 'AirbnbCerealLight';
         display: flex;
-        width: 80%;
+        width: 70%;
     }
     
     .maditation-img {
