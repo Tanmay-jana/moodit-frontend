@@ -1,0 +1,283 @@
+.landing-page-container {
+    background-image: url('../../assets/Rectangle.png');
+    background-size: cover;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+.landing-page-body {
+    display: flex;
+    width: 100%;
+    padding-top: 10%;
+    /* margin-top: 3%; */
+}
+
+.landing-left {
+    width: 45%;
+    display: flex;
+    /* flex-direction: column;
+    align-items: flex-end; */
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.text-body {
+    font-family: 'AirbnbCerealLight';
+    font-size: 200%;
+    color: #fff;
+    width: 55%;
+}
+
+.text-body span {
+    font-family: 'AirbnbCerealBold';
+}
+
+.appstore-link {
+    /* font-family: 'AirbnbCerealLight'; */
+    display: flex;
+    width: 55%;
+}
+
+.store-app-img {
+    width: 50%;
+    /* padding-top: 5%; */
+    align-self: center;
+}
+
+.know-more-form {
+    font-family: 'AirbnbCerealLight';
+    display: flex;
+    width: 55%;
+    padding-top: 5%;
+}
+
+.email {
+     border: none;
+     width: 60%;
+     padding: 5%;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background: rgba(24, 69, 188, 0.5);
+     margin-right: 0.5%;
+     color: #fff;
+}
+
+.email::placeholder {
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.submit {
+    border: none;
+    font-size: 70%;
+    padding: 5%;
+    background: rgba(24, 69, 188, 0.5);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.maditation-img {
+    width: 40%;
+}
+
+.maditation-img1 {
+    display: none;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+@media screen and (max-width: 800px) {
+    .landing-page-container {
+        /* background-image: url('../../assets/Rectangle.png'); */
+        background: #3d82f0;
+        background-size: cover;
+        /* background-position-y: top; */
+       padding-bottom: 10%;
+        width: 100%;
+    }
+
+    .landing-page-body {
+        display: flex;
+        width: 100%;
+        padding-top: 10%;
+        /* margin-top: 3%; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .landing-left {
+        width: 80%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        order: 2;
+    }
+
+    .text-container {
+        display: flex;
+        margin-right: 0%;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .appstore-link {
+        /* font-family: 'AirbnbCerealLight'; */
+        display: flex;
+        width: 55%;
+        justify-content: space-around;
+    }
+    
+    .store-app-img {
+        width: 50%;
+        /* padding-top: 5%; */
+        align-self: center;
+    }
+
+    .text-body {
+        font-family: 'AirbnbCerealLight';
+        font-size: 300%;
+        color: #fff;
+        width: 60%;
+    }
+
+    .know-more-form {
+        font-family: 'AirbnbCerealLight';
+        display: flex;
+        width: 60%;
+    }
+    
+    .maditation-img {
+        width: 60%;
+        padding-top: 10%;
+        order: 1;
+        display: none;
+    }
+
+    .maditation-img1 {
+        display: block;
+        width: 60%;
+        padding-top: 10%;
+        order: 1;
+    }
+
+    .email {
+        border: none;
+        width: 60%;
+        padding: 5%;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background: rgba(24, 69, 188, 0.5);
+        margin-right: 0.5%;
+        color: #fff;
+   }
+   
+   .email::placeholder {
+       text-align: center;
+       color: #fff;
+       opacity: 0.5;
+   }
+   
+   .submit {
+       border: none;
+       font-size: 70%;
+       padding: 5%;
+       background: rgba(24, 69, 188, 0.5);
+       color: #fff;
+       border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+   }
+   
+}
+
+@media screen and (max-width: 500px) {
+    .landing-page-body {
+        display: flex;
+        width: 100%;
+        padding-top: 10%;
+        /* margin-top: 3%; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .landing-left {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+
+    .text-container {
+        display: flex;
+        margin-right: 0%;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text-body {
+        font-family: 'AirbnbCerealLight';
+        font-size: 200%;
+        color: #fff;
+        width: 80%;
+        text-align: center;
+    }
+
+    .know-more-form {
+        font-family: 'AirbnbCerealLight';
+        display: flex;
+        width: 70%;
+    }
+    
+    .maditation-img {
+        width: 60%;
+        padding-top: 25%;
+        display: none;
+    }
+
+    .maditation-img1 {
+        width: 80%;
+        padding-top: 15%;
+    }
+
+    .appstore-link {
+        /* font-family: 'AirbnbCerealLight'; */
+        display: flex;
+        width: 55%;
+        justify-content: space-around;
+    }
+    
+    .store-app-img {
+        width: 70%;
+        padding-top: 5%;
+        align-self: center;
+    }
+}
