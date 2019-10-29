@@ -8,7 +8,7 @@ export default class Section2 extends Component {
   render() {
     return (
       <div id = "why" className="section2-container">
-        <h1>The mental wellness revolution</h1>
+        <h1>The Mental Wellness Revolution</h1>
         <h2>
           Having fun online while increasing emotional literacy and emotional
           intelligence

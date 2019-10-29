@@ -31,6 +31,12 @@
     justify-content: flex-end;
 }
 
+.footer-right > div {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-right p {
      font-family: 'AirbnbCerealMedium';
      font-size: 70%;

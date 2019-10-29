@@ -12,8 +12,10 @@ export default class MainFooter extends Component {
                 </div>
                 <div className = "footer-right">
                     <p>All rights reserved. Moodit Limited. 2019</p>
+                    <div>
                     <a href = "https://www.facebook.com/mooditapp" target = "_blank"><i className="fa fa-facebook"></i></a>
                     <a href = "https://www.instagram.com/mooditapp/" target = "_blank"><i className="fa fa-instagram"></i></a>
+                    </div>
                 </div>
             </footer>
         )
