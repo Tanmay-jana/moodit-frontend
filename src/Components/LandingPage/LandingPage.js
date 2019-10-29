@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./LandingPage.css";
 import Header from "../Mainheader/MainHeader";
 import maditation from "../../assets/MAINILLLUSTRATIONCopy.png";
+import maditation1 from "../../assets/MAINILLLUSTRATIONCopy1.png";
 import MobileNav from '../MobileNav/MobileNav';
 import appStore from '../../assets/app-store.png'
 
@@ -27,7 +28,8 @@ export default class LandingPage extends Component {
               </form> */}
             </div>
           </div>
-          <img className="maditation-img" src={maditation} alt="img" />
+          <img className="maditation-img floating" src={maditation} alt="img" />
+          <img className="maditation-img1 floating" src={maditation1} alt="img" />
         </div>
       </div>
     );

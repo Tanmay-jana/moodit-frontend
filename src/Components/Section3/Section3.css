@@ -35,7 +35,7 @@
 }
 
 .work-list p {
-    font-family: 'AirbnbCerealMedium';
+    font-family: 'AirbnbCerealBook';
     font-size: 70%;
     line-height: 180%;
 }
@@ -73,7 +73,7 @@
     }
     
     .work-list p {
-        font-family: 'AirbnbCerealMedium';
+        font-family: 'AirbnbCerealBook';
         font-size: 100%;
         line-height: 180%;
     }

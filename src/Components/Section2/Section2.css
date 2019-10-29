@@ -53,7 +53,7 @@
 }
 
 .feature-body {
-    font-family: 'AirbnbCerealMedium';
+    font-family: 'AirbnbCerealBook';
     font-size: 70%;
     line-height: 170%;
 }
@@ -93,7 +93,7 @@
     }
     
     .feature-body {
-        font-family: 'AirbnbCerealMedium';
+        font-family: 'AirbnbCerealBook';
         font-size: 120%;
         line-height: 170%;
     }
@@ -149,7 +149,7 @@
     }
     
     .feature-body {
-        font-family: 'AirbnbCerealMedium';
+        font-family: 'AirbnbCerealBook';
         font-size: 100%;
         line-height: 170%;
     }

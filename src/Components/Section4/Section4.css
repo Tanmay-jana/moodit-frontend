@@ -51,8 +51,8 @@
 }
 
 .info-text p {
-    color: #D2D2D2;
-    font-family: 'AirbnbCerealMedium';
+    color: #2C2E30;
+    font-family: 'AirbnbCerealBook';
     font-size: 70%;
     text-align: center;
     line-height: 200%;
@@ -77,8 +77,8 @@
     }
 
     .info-text p {
-        color: #D2D2D2;
-        font-family: 'AirbnbCerealMedium';
+        color: #2C2E30;
+        font-family: 'AirbnbCerealBook';
         font-size: 150%;
         text-align: center;
         line-height: 200%;
@@ -110,11 +110,12 @@
         font-family: 'AirbnbCerealLight';
         color: #2C2E30;
         font-size: 150%;
+        text-align: center;
     }
 
     .info-text p {
-        color: #D2D2D2;
-        font-family: 'AirbnbCerealMedium';
+        color: #2C2E30;
+        font-family: 'AirbnbCerealBook';
         font-size: 100%;
         text-align: center;
         line-height: 150%;
