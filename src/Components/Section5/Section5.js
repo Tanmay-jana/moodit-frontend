@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import "./Section5.css";
 import mobile from "../../assets/MOCK 2.png";
@@ -17,7 +18,7 @@ export default class Section5 extends Component {
             Moodit is available on appstore for public Beta! If you want to work
             with us, please write to team@moodit.com.
           </p>
-          <img className = "app-store-img" src = {appstore} alt = "appstore"/>
+          <a href = "https://apps.apple.com/gb/app/moodit/id1445122054" target = "_blank"><img className = "app-store-img" src = {appstore} alt = "appstore"/></a>
         </div>
         
       </div>

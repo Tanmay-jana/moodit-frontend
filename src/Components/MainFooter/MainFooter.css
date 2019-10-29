@@ -38,7 +38,12 @@
 }
 
 .footer-right i {
-    padding-left: 3%;
+    /* padding-left: 3%; */
+}
+
+.footer-right a{
+    margin-left: 3%;
+    color: #54565A;
 }
 
 @media screen and (max-width: 800px) {
@@ -77,7 +82,7 @@
         background: #F6F8F9;
         color: #54565A;
         align-items: center;
-        padding: 1% 0 1% 0;
+        padding: 1% 0 5% 0;
         flex-direction: column;
     }
 
@@ -115,7 +120,7 @@
         margin: 2% 0;
    }
    
-   .footer-right i {
+   .footer-right a {
        padding-left: 0%;
        margin: 2% 0;
    }

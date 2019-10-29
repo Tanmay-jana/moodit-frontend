@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react'
 import './MainFooter.css'
 
@@ -11,8 +12,8 @@ export default class MainFooter extends Component {
                 </div>
                 <div className = "footer-right">
                     <p>All rights reserved. Moodit Limited. 2019</p>
-                    <i className="fa fa-facebook"></i>
-                    <i className="fa fa-instagram"></i>
+                    <a href = "https://www.facebook.com/mooditapp" target = "_blank"><i className="fa fa-facebook"></i></a>
+                    <a href = "https://www.instagram.com/mooditapp/" target = "_blank"><i className="fa fa-instagram"></i></a>
                 </div>
             </footer>
         )

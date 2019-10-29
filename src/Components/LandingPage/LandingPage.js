@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import "./LandingPage.css";
 import Header from "../Mainheader/MainHeader";
-import maditation from "../../assets/MAINILLLUSTRATION2.png";
-import MobileNav from '../MobileNav/MobileNav'
+import maditation from "../../assets/MAINILLLUSTRATIONCopy.png";
+import MobileNav from '../MobileNav/MobileNav';
+import appStore from '../../assets/app-store.png'
 
 export default class LandingPage extends Component {
   render() {
@@ -17,10 +19,12 @@ export default class LandingPage extends Component {
                 We are <span>Moodit</span>, We are making{" "}
                 <span>Mental Health</span> Cool.
               </p>
-              <form className = "know-more-form">
+              <a className = "appstore-link" href = "https://apps.apple.com/gb/app/moodit/id1445122054" target = "_blank"><img className = "store-app-img" src = {appStore} alt = "appStore"/></a>
+
+              {/* <form className = "know-more-form">
                 <input className = "email" type="email" name="email" placeholder="Enter your email" />
                 <input className = "submit" type="submit" value="KNOW MORE" />
-              </form>
+              </form> */}
             </div>
           </div>
           <img className="maditation-img" src={maditation} alt="img" />

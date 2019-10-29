@@ -39,6 +39,18 @@
     font-family: 'AirbnbCerealBold';
 }
 
+.appstore-link {
+    /* font-family: 'AirbnbCerealLight'; */
+    display: flex;
+    width: 55%;
+}
+
+.store-app-img {
+    width: 50%;
+    /* padding-top: 5%; */
+    align-self: center;
+}
+
 .know-more-form {
     font-family: 'AirbnbCerealLight';
     display: flex;
@@ -111,6 +123,21 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .appstore-link {
+        /* font-family: 'AirbnbCerealLight'; */
+        display: flex;
+        width: 55%;
+        justify-content: space-around;
+    }
+    
+    .store-app-img {
+        width: 50%;
+        /* padding-top: 5%; */
+        align-self: center;
     }
 
     .text-body {
@@ -206,5 +233,18 @@
     .maditation-img {
         width: 60%;
         padding-top: 25%;
+    }
+
+    .appstore-link {
+        /* font-family: 'AirbnbCerealLight'; */
+        display: flex;
+        width: 55%;
+        justify-content: space-around;
+    }
+    
+    .store-app-img {
+        width: 70%;
+        /* padding-top: 5%; */
+        align-self: center;
     }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import "./MainHeader.css";
 import logo from "../../assets/MooditLogo.png";
@@ -44,13 +45,13 @@ class MainHeader extends Component {
     return (
       <div className={this.state.scrolled === false? "main-header-container": "header-solid"}>
         <div className = "header-left">
-          <img className = "main-logo" src={logo} alt="logo" />
+          <a href = "/"><img className = "main-logo" src={logo} alt="logo" /></a>
         </div>
         <i onClick = {this.mobNav} className="fa fa-bars"></i>
         <div className = "header-right">
-            <a className = "nav-link" href = "/">Why</a>
-            <a className = "nav-link" href = "/">How</a>
-            <a className = "nav-link" href = "/">Download App</a>
+            <a className = "nav-link" href = "/#why">Why</a>
+            <a className = "nav-link" href = "/#how">How</a>
+            <a className = "nav-link" href = "https://apps.apple.com/gb/app/moodit/id1445122054" target = "_blank">Download App</a>
         </div>
       </div>
     );

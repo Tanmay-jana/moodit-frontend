@@ -5,7 +5,7 @@ import mock from '../../assets/MOCK.png'
 export default class Section3 extends Component {
   render() {
     return (
-      <div className="section3-container">
+      <div id = "how" className="section3-container">
         <p className="section3-header">How does it work?</p>
         <div className="blue-box">
           <div className="work-lists">

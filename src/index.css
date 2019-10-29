@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: AirbnbCerealBold;
   src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealBold.ttf)
