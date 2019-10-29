@@ -37,8 +37,8 @@
 
     .walking-img {
         display: block;
-        max-width:125%;
-        max-height:100%;
+        max-width: 125%;
+        max-height: 100%;
         width: auto;
         height: auto;
     }
@@ -54,7 +54,7 @@
         font-family: 'AirbnbCerealMedium';
         font-size: 200%;
     }
-    
+
     .section1-text-container p {
         font-family: 'AirbnbCerealLight';
         font-size: 150%;
@@ -71,8 +71,12 @@
     }
 
     .walking-img {
+        /* width: 125%; */
+        display: block;
+        max-width: 18rem;
+        max-height: 12rem;
+        width: auto;
         height: auto;
-        width: 125%;
     }
 
     .section1-text-container {
@@ -85,7 +89,7 @@
         font-family: 'AirbnbCerealMedium';
         font-size: 150%;
     }
-    
+
     .section1-text-container p {
         font-family: 'AirbnbCerealLight';
         font-size: 100%;
