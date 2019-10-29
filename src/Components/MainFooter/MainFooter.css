@@ -1,0 +1,134 @@
+.main-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #F6F8F9;
+    color: #54565A;
+    align-items: center;
+    padding: 1% 0 1% 0;
+}
+
+.footer-left {
+    width: 31%;
+    display: flex;
+    align-items: center;
+    margin-left: 19%
+}
+
+.footer-left a {
+    text-decoration: none;
+    font-family: 'AirbnbCerealBold';
+    padding-right: 5%;
+    color: #54565A;
+    font-size: 70%;
+}
+
+.footer-right {
+    display: flex;
+    width: 28%;
+    align-items: center;
+    margin-right: 22%;
+    justify-content: flex-end;
+}
+
+.footer-right > div {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right p {
+     font-family: 'AirbnbCerealMedium';
+     font-size: 70%;
+     padding-right: 5%;
+}
+
+.footer-right i {
+    /* padding-left: 3%; */
+}
+
+.footer-right a{
+    margin-left: 3%;
+    color: #54565A;
+}
+
+@media screen and (max-width: 800px) {
+    .main-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background: #F6F8F9;
+        color: #54565A;
+        align-items: center;
+        padding: 1% 0 1% 0;
+    }
+
+    .footer-left {
+        width: 31%;
+        display: flex;
+        align-items: center;
+        margin-left: 10%
+    }
+
+    .footer-right {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        margin-right: 10%;
+        justify-content: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .main-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background: #F6F8F9;
+        color: #54565A;
+        align-items: center;
+        padding: 1% 0 5% 0;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 0%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .footer-left a {
+        text-decoration: none;
+        font-family: 'AirbnbCerealBold';
+        padding-right: 0%;
+        color: #54565A;
+        font-size: 70%;
+        margin: 2% 0;
+    }
+
+    .footer-right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-right:     0%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .footer-right p {
+        font-family: 'AirbnbCerealMedium';
+        font-size: 70%;
+        padding-right: 0%;
+        margin: 2% 0;
+   }
+   
+   .footer-right a {
+       padding-left: 0%;
+       margin: 2% 0;
+   }
+   
+}

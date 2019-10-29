@@ -1,0 +1,112 @@
+.main-header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    padding: 2% 0;
+    /* background: #3c82f0; */
+}
+
+.header-solid {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    padding: 2% 0;
+    background: #3c82f0;
+    z-index: 10;
+}
+
+.header-left, .header-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    margin-left: 20%;
+}
+
+.header-right {
+    margin-right: 20%;
+    justify-content: flex-end;
+}
+
+.main-logo {
+    width: 22%;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10%;
+    font-family: 'AirbnbCerealExtraBold';
+    font-size: 80%;
+}
+
+.nav-link:hover {
+    text-shadow: 0px 0px 5px #fff
+}
+
+.fa-bars {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        padding: 5% 0;
+        /* background: #3c82f0; */
+    }
+
+    .header-solid {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        padding: 5% 0;
+        background: #3c82f0;
+        z-index: 10;
+    }
+
+    .header-right {
+        display: none
+    }
+
+    .fa-bars {
+        display: block;
+        color: #fff;
+        align-self: center;
+        font-size: 150%;
+        text-align: center;
+        align-self: flex-end;
+    }
+
+    .header-left {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-left {
+        margin-left: 0%;
+    }
+
+    .main-logo {
+        width: 40%; 
+    }
+
+    .fa-bars {
+        display: block;
+        color: #fff;
+        align-self: center;
+        font-size: 150%;
+        text-align: center;
+        align-self: flex-end;
+    }
+}

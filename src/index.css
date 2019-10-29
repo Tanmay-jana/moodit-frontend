@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: AirbnbCerealBold;
+  src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealBold.ttf)
+}
+
+@font-face {
+  font-family: AirbnbCerealExtraBold;
+  src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealExtraBold.ttf)
+}
+
+@font-face {
+  font-family: AirbnbCerealLight;
+  src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealLight.ttf)
+}
+
+@font-face {
+  font-family: AirbnbCerealMedium;
+  src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealMedium.ttf)
+}
+
+@font-face {
+  font-family: AirbnbCerealBook;
+  src: url(../src/assets/airbnb-cereal-app-cufonfonts/AirbnbCerealBook.ttf)
+}
