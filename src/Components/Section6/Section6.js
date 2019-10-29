@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './Section6.css'
-import bitmap from '../../assets/Bitmap.png';
+import bitmap from '../../assets/Bitmap1.png';
 import vmLogo from '../../assets/VM-Logo-black.png';
-import googleLogo from '../../assets/Google.png';
-import ukLogo from '../../assets/Uk.png';
+import googleLogo from '../../assets/Google1.png';
+import ukLogo from '../../assets/Uk1.png';
 import segmentLogo from '../../assets/Segment1.png';
 import fbLogo from '../../assets/FB1.png';
-import websummitLogo from '../../assets/websummit-logo.png'
+import websummitLogo from '../../assets/websummit-logo1.png'
 
 export default class Section6 extends Component {
     render() {
